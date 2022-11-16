@@ -1,0 +1,22 @@
+<!--pages/mymissions/mymissions.wxml-->
+<view class="wrap-box">
+<view class="title">我接受的任务</view>
+<scroll-view scroll-y class="missionlist">
+<!-- 我的接受的任务列表 -->
+<block wx:for="{{mymissionlist}}" wx:key="index">
+<view>
+
+</view>
+</block>
+
+
+</scroll-view>
+</view>
+<view class="wrap-box">
+<view class="title">我发布的任务</view>
+<scroll-view scroll-y class="missionlist">
+<view>A</view>
+<view>B</view>
+<view>C</view>
+</scroll-view>
+</view>

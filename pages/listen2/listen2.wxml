@@ -1,0 +1,15 @@
+<view id="tapTest" data-hi="WeChat" bindtap="tapName">Click me! </view>
+<view
+  id="outer"
+  bind:touchstart="handleTap1"
+  capture-bind:touchstart="handleTap2"
+>
+  outer view
+  <view
+    id="inner"
+    bind:touchstart="handleTap3"
+    capture-bind:touchstart="handleTap4"
+  >
+    inner view
+  </view>
+</view>

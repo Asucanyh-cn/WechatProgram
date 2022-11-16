@@ -1,0 +1,15 @@
+text{
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+view{
+  border: 1px solid;
+}
+input{
+  width: 650rpx;
+  margin: 0 auto;
+  border: 1px solid;
+  text-align: center;
+}

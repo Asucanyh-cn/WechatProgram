@@ -1,0 +1,35 @@
+<!--pages/index1/index1.wxml-->
+<text>实现水平布局</text>
+<view class="container1">
+  <view>A</view>
+  <view>B</view>
+  <view>B</view>
+</view>
+<text>实现滚动效果</text>
+<scroll-view scroll-y class="container2">
+  <view>A</view>
+  <view>B</view>
+  <view>B</view>
+</scroll-view>
+<text>实现轮播图效果</text>
+<swiper class="container3" indicator-dots indicator-color="white" indicator-active-color="black" autoplay="true" circular>
+  <swiper-item>
+    <view class="item">a</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">b</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">c</view>
+  </swiper-item>
+</swiper>
+<text>hover-class</text>
+<view class="container-hover">
+  <view hover-class="hover">A</view>
+  <view hover-class="hover">B</view>
+  <view hover-class="hover">C</view>
+</view>
+<text>loading属性</text>
+<button loading="{{loading}}" type="primary" bindtap="loadingStart">确认</button>
+<text>Toast</text>
+<button type="primary" plain bindtap="showToast">Toast</button>

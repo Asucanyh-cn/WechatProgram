@@ -1,0 +1,5 @@
+<!--pages/listen1/listen1.wxml-->
+<text>{{hi}}</text>
+<button type="primary" bindtap="btnTapHandler">确认</button>
+<text>{{count}}</text>
+<button type="primary" bindtap="CountChange">+1</button>

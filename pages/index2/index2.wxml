@@ -1,0 +1,13 @@
+<!--pages/index2/index2.wxml-->
+<text>bindinput</text>
+<input id="inputArea" bindinput="inputHandler"></input>
+<view wx:if="{{sex==0}}">女</view>
+<view wx:elif="{{sex==1}}">男</view>
+<view wx:else>保密</view>
+<block wx:if="{{sex==0}}">
+<view>小飞棍来了</view>
+<view>艾玛这真香</view>
+</block>
+<view hidden="{{flag}}">flag为true我会被隐藏</view>
+<view wx:for="{{array}}" wx:key="index">{{index}},{{item}}</view>
+<view wx:for="{{usrlist}}" wx:key="id">{{index}},{{item.id}},{{item.name}}</view>

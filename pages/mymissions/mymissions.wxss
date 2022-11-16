@@ -1,0 +1,26 @@
+/* pages/mymissions/mymissions.wxss */
+.wrap-box{
+  /* margin-bottom: 20rpx; */
+  /* background-color:lightcoral; */
+  box-sizing: border-box;
+}
+.title{
+  background:lightgreen;
+  box-sizing: border-box;
+  padding: 20rpx;
+  font-weight: bold;
+}
+
+.missionlist{
+  /* background: lightgreen; */
+  width: 750rpx;
+  height: 550rpx;
+  margin: 0 auto;
+}
+
+.missionlist view{
+  background: lightblue;
+  height: 250rpx;
+  margin: 20rpx;
+  box-shadow: 3rpx 3rpx 6rpx rgb(190, 189, 189);
+}

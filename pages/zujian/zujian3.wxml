@@ -1,0 +1,13 @@
+<!--pages/zujian/zujian3.wxml-->
+<!-- 设置按钮颜色类型 -->
+<button>默认按钮</button>
+<button type="primary">主色按钮</button>
+<button type="warn">警告按钮</button>
+<!-- 添加镂空效果 -->
+<button plain>默认按钮</button>
+<button type="primary" plain>主色按钮</button>
+<button type="warn" plain>警告按钮</button>
+<!-- 小尺寸按钮 -->
+<button size="mini">默认按钮</button>
+<button type="primary" size="mini">主色按钮</button>
+<button type="warn" size="mini">警告按钮</button>
