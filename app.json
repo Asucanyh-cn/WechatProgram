@@ -4,6 +4,10 @@
     "pages/post/post",
     "pages/mine/mine",
     "pages/mymissions/mymissions",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/reset/reset",
+    "pages/review/review",
     
     "pages/index2/index2",
     "pages/index1/index1",
@@ -14,6 +18,7 @@
     "pages/logs/logs"
   ],
   "tabBar": {
+    "custom":false,
     "list":[
       {
         "pagePath":"pages/missionlobby/mlobby",
@@ -35,6 +40,7 @@
       }
     ]
   },
+  "usingComponents": {},
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#2b4b6b",
@@ -42,7 +48,6 @@
     "navigationBarTextStyle":"white",
     "backgroundColor": "#D3D3D3"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
 }

@@ -9,24 +9,28 @@ Page({
     AppSecret:'a5155a9883a538a339eab2c4a1f58a2c',
     balance: 0,
     menuitems: [
-      { text: '个人资料', url: '#', icon: '', tips: '', arrows: '' },
+      // { text: '个人资料', url: '#', icon: '', tips: '', arrows: '' },
       // { text: '邀请好友', url: '#', icon: '', tips: '', arrows: '' },
       { text: '任务清单', url: '/pages/mymissions/mymissions', icon: '', tips: '', arrows: '' },
+      { text: '任务审核', url: '/pages/review/review', icon: '', tips: '', arrows: '' }
     ]
   },
   
   //登录功能函数
   //AppID(小程序ID):wx14f6e62edc057a02
   //AppSecret:a5155a9883a538a339eab2c4a1f58a2c
-  toLogin(){
-    wx.login({
-      success:(res)=>{
-        console.log(res)
-        if(res.code){
-          
-        }
-      }
+  toLoginPage(){
+    wx.navigateTo({
+      url: '/pages/login/login',
     })
+    // wx.login({
+    //   success:(res)=>{
+    //     console.log(res)
+    //     if(res.code){
+          
+    //     }
+    //   }
+    // })
   },
   /**
    * 生命周期函数--监听页面加载

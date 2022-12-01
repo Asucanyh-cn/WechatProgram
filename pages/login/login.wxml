@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="loginbox">
+
+  <view class="accountbox">
+    <text>账号</text><input type="nickname" class="usrname"></input>
+  </view>
+  <view class="accountbox">
+    <text>密码</text><input type="safe-password" class="pswd"></input>
+  </view>
+  <view class="btn-set">
+    <button class="loginbtn" type="primary">登录</button>
+    <navigator class="toRegPage" open-type="navigate" url="/pages/register/register">注册</navigator>
+    <navigator class="toResetPage" open-type="navigate" url="/pages/reset/reset">忘记密码？</navigator>
+  </view>
+</view>

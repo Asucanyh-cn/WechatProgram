@@ -108,7 +108,6 @@ Page({
         success(res) {
           if (res.confirm) {
             console.log('用户点击确定') //移除首页任务操作
-            99999999
           } else if (res.cancel) {
             console.log('用户点击取消')
           }

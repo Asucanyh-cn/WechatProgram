@@ -6,7 +6,7 @@
       </view>
       <view class="text">
         <text wx:if="{{userinfo.nickName}}">{{userinfo.nickName}}</text>
-        <text wx:else bindtap="toLogin">注册 / 登录</text>
+        <text wx:else bindtap="toLoginPage">注册 / 登录</text>
       </view>
       <view class="text">
         <text wx:if="{{userSign==2}}">{{"您还没有填写真实信息,请填写"}}</text>
